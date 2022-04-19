@@ -11,7 +11,7 @@ const App = () => {
 
 	useEffect(() => {
 
-		fetch('http://172.20.10.3:5000')
+		fetch('http://10.87.1.72:5000')
 			.then(response => response.json())
 			.then(json => {
 				console.log('Got a response')
